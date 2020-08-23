@@ -1,0 +1,36 @@
+
+
+.fillcontainer {
+  min-height: 100vh;
+  background-color: grey;
+}
+
+.fill {
+  /* min-height: 100%; */
+}
+
+.sizeheader {
+  min-height: 5vh;
+}
+
+.sizebody {
+  min-height: 70vh;
+}
+
+.sizefooter {
+  min-size:5vh;
+}
+
+html,body{
+    height:100%;
+}
+
+.flex-fill {
+    flex:1;
+}
+
+.fit-pic {
+  max-width: 100%;
+  height:auto;
+  /* object-fit: cover; */
+}
